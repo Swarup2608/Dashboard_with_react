@@ -148,7 +148,7 @@ export const MainContent = () => {
               <div className="card">
                 <div className="card-body">
                   <h4 class="font-weight-bold mb-3">Popular Categories</h4>
-                  <PieCharta />
+                  <PieCharta aspect={1.2/1} />
                   <div class="d-flex justify-content-around align-items-center">
                     <div>
                       <svg
