@@ -1,0 +1,123 @@
+.top-navbar {
+  background: #fff;
+  padding: 0 30px;
+  min-height: 73px;
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: 0;
+  width: calc(100% - 260px);
+  display: inline-block;
+  z-index: 99;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+  -ms-box-shadow: 0 0 30px rgba(12, 37, 86, 0.05);
+  -o-box-shadow: 0 0 30px rgba(12, 37, 86, 0.05);
+  box-shadow: 0 0 30px rgb(12 37 86 / 5%);
+  justify-content: space-between !important;
+  padding: 20px;
+}
+.side-menu-bt-sidebar {
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+.top-navbar .wrapper-menu {
+  margin: 0 15px 0 0;
+}
+
+.top-navbar .mode {
+  margin-right: 25px;
+}
+.mode .switch-inner {
+  display: block;
+  text-align: center;
+}
+
+/* Switch */
+
+
+
+
+.custom-switch.custom-switch-icon label .switch-icon-right {
+  position: absolute;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: -3px;
+  right: 5px;
+  left: auto;
+}
+
+.custom-switch.custom-switch-icon label .switch-icon-left {
+  position: absolute;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  top: -3px;
+  left: 8px;
+  right: auto;
+  color: #fff;
+}
+.custom-switch.custom-switch-icon .custom-control-label {
+  height: 20px;
+  width: 40px;
+  padding: 0;
+}
+
+
+
+.mode .custom-switch.custom-switch-icon .custom-control-input {
+  height: 100%;
+}
+.mode .custom-switch.custom-switch-icon label.custom-control-label {
+  height: 30px;
+}
+
+.mode .custom-switch.custom-switch-icon label.custom-control-label:before {
+  width: 70px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border-color: #0c2556;
+  border-radius: 5px;
+}
+.mode
+  .custom-switch.custom-switch-icon
+  label.custom-control-label
+  .switch-icon-left {
+  top: 3px;
+  z-index: 1;
+  left: 8px;
+}
+.mode
+  .custom-switch.custom-switch-icon
+  label.custom-control-label
+  .switch-icon-right {
+  color: #0c2556;
+  right: -23px;
+  top: 3px;
+}
+
+.mode .custom-switch.custom-switch-icon label.custom-control-label:after {
+  top: 1px;
+  left: 0;
+  width: 35px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  background-color: #0c2556;
+  border-color: #0c2556;
+  z-index: 0;
+}
+
+.top-navbar .navbar-expand-lg {
+  justify-content: space-between !important;
+}
+.navbar {
+  padding: 10px 15px;
+}
+
+

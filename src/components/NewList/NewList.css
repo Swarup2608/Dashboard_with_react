@@ -1,0 +1,10 @@
+.avatar-45 {
+    height: 45px;
+    width: 45px;
+    min-width: 45px;
+}
+.Completed{
+    color: #28a745!important;
+}.Failed,.Cancelled,.Pending{
+    color: rgb(150, 47, 47)!important;
+}

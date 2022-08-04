@@ -1,0 +1,104 @@
+.sidebar{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 260px;
+    height: 100%;
+    background: #0c2556;
+    transition: all .6s ease-in-out;
+    -ms-box-shadow: 0 0 30px rgba(12,37,86,.05);
+    -o-box-shadow: 0 0 30px rgba(12,37,86,.05);
+    box-shadow: 0 0 30px rgb(12 37 86 / 5%);
+}
+
+.sidebar .logo{
+    padding: 15px;
+    width: auto;
+    position: relative;
+    transition: all .6s ease-in-out;
+    display: flex;
+    align-items: center;
+}
+.sidebar .logo img{
+    height: 40px;
+}
+.sidebar .logo span{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 19px;
+    line-height: 42px;
+    padding-left: 1px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    flex: 1 1;
+    transition: all .6s ease-in-out;
+}
+.sidebar-menu{
+    color: #8f9fbc;
+    position: relative;
+}
+.side-menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.side-menu li{
+    list-style-type: none;
+    position: relative;
+    white-space: nowrap;
+}
+.sidebar-layout{
+    padding: 0px 15px;
+}
+.side-menu>li.active{
+    border-radius: 5px;
+}
+.side-menu li .class{
+    font-size: 14px;
+    white-space: nowrap;
+    display: block;
+    color: #8f9fbc;
+    position: relative;
+    padding: 0.625rem 0.938rem;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    text-transform: capitalize;
+    transition: all .4s;
+}
+.side-menu>li.active>.class, 
+    .side-menu>li:hover>.class{ 
+    color: #fff;
+    text-decoration: none;
+    background-color: hsla(0,0%,100%,.08);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.side-menu li .class i{
+    vertical-align: middle;
+    width: 20px;
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 17px;
+    font-style: normal;
+}
+.side-menu li .class span{
+    white-space: nowrap;
+    padding: 0;
+    font-size: 16px;
+    display: inline-block;
+    transition: none;
+}
+.side-menu li .class .badge {
+    position: absolute;
+    right: 15px;
+    padding: 10px;
+    border-radius: 12px;
+    transition: all .6s ease-in-out;
+}
+.sidebar-menu .side-menu li {
+    list-style-type: none;
+    position: relative;
+    white-space: nowrap;
+}

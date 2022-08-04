@@ -1,0 +1,73 @@
+.content-page {
+  overflow: hidden;
+  margin-left: 260px;
+  padding: 100px 15px 0;
+  min-height: 100vh;
+  transition: all 0.3s ease-in-out;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  -ms-box-shadow: 0 10px 30px 0 rgba(0, 60, 179, 0.05);
+  -o-box-shadow: 0 10px 30px 0 rgba(0, 60, 179, 0.05);
+  box-shadow: 0 10px 30px 0 rgb(0 60 179 / 5%);
+  border: 0 solid #dfe7ff;
+}
+.progresschart{
+  width: 75px; height: 75px;
+}
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+  padding: 20px;
+}
+
+@media (min-width: 1300px) {
+  body.sidebar-main .content-page {
+    margin-left: 80px;
+  }
+}
+.card .card-header .header-title .card-title {
+  font-weight: 700;
+  margin-bottom: 0;
+  margin: 13px;
+}
+
+.bg-primary {
+  color: #fff!important;
+  background-color: #3378ff!important;
+}
+.chartet{
+  padding-bottom: 30px;
+}
+
+.texter{
+  margin-left: 50px!important;
+  margin-bottom: -20px;
+}
+.text-secondary {
+  color: #8f9fbc!important;
+}
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.card .card-header {
+  background: transparent;
+  border-radius: 0;
+  padding: 20px;
+  margin-bottom: 0;
+  align-items: center!important;
+}
+.card-block.card-height {
+  height: calc(100% - 30px);
+}

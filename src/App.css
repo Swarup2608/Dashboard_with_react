@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+  color: #324253;
+  background: #f9fbfe;
+  overflow-x: hidden;
+}
+body .body {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+  color: #324253;
+  background: #f9fbfe;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+svg {
+  overflow: hidden;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.563rem;
+}
+h5 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: #213446;
+  font-size: 1.25rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-body-list ul>li {
+  border-bottom: 1px solid #f1f1f1;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(255,255,255,.8);
+  border-bottom: 1px solid rgba(0,0,0,.125);
 }
